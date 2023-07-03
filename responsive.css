@@ -1,0 +1,196 @@
+@media screen and (min-width:335px){
+    .menu-links{
+    display: none;
+    }  
+}
+@media screen and (min-width:1250px){
+    header{
+        width:100%;
+    }
+    nav{
+        width: 1340px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .open-menu, .close-menu{
+        display: none;
+    }
+    .menu-links{
+        display: block;
+        height: 80px;
+        background-color: #fff;
+    }
+    .menu-links ul {
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 33px;
+    }
+    .menu-links ul li a{
+        color:var(--pColor);
+        font-size: 13px;
+    }
+    .menu-links ul li a:hover{
+        color: #2C2830;
+    }
+    .plans {
+        width: 146px;
+        height: 40px;
+        border: 1.5px solid #2C2830;
+    }
+    .plans .plans-txt:hover{
+        width: 146px;
+        border: none;
+        color: #fff;
+        background-color: #2C2830;
+        transition: 1s;
+    }
+    .menu-circle{
+        display: none;
+    }
+    section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .txt-img{
+        width: 1340px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .family-img{
+        background-image: none;
+        position: relative;
+        z-index: -1;
+        top: 85px;
+        width: 740px;
+        height: 750px;
+        background-size: 100%;
+        background-image: url(./assets/desk-family-img.svg);
+    }
+    .txt-box{
+        width: 540px;
+        align-items: start;
+    }
+    .txt-box h1{
+        font-size: 77px;
+        line-height: 64px;
+        letter-spacing: -1px;
+        text-align: start;
+    }
+    .txt-box h1::before {
+        content: "";
+        width: 156px;
+        height: 1px;
+        background: #fff;
+        position: absolute;
+        margin-top: -120px;
+    }
+    .txt-box p{
+        width: 540px;
+        text-align: start;
+        font-size: 16px;
+        margin-top: 24px;
+        line-height: 30px;
+    }
+    .sec-two{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .different-txt{
+        width: 1340px;
+        display: flex;
+        align-items: start;
+        margin-top: 254px;
+    }
+    .different-txt h1{
+        font-size: 72px;
+        line-height: 64px;
+    }
+    .different-txt .arrow{
+        margin-bottom: 100px;
+    }
+    .boxes{
+        width: 1340px;
+        margin-top: 96px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .boxes .box{
+        align-items: start;
+        width: 350px;
+    }
+    .boxes .box h3 {
+        text-align: start;
+    }
+    .boxes .box  p{
+        text-align: start;
+        width: 350px;
+    }
+    .sec-three{
+        width: 100%;
+    }
+    .sec-three-box{
+        width: 1340px;
+        background-image: url(./assets/Group\ 6\ Copy\ \(1\).svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-three-box .crc{
+        display: none;
+    }
+    .find-txt{
+        width: 1340px;
+        height:240px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .find-txt h1{
+        font-size: 56px;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 56px;
+        width: 484px;
+        text-align: start;
+    }
+    .find-txt button{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    footer{
+        width: 100%;
+        background-image: none;
+        background-image: url(./assets/Group\ 22\ \(2\).svg);
+        background-repeat: no-repeat;
+    }
+    .logo-icon{
+        width: 1340px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .line{
+        width: 1340px;
+    }
+    .footer-boxes{
+        width: 1340px;
+        margin-top: 70px;
+        grid-template-columns: auto auto auto auto;
+    }
+    .footer-box{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+}
